@@ -1,0 +1,19 @@
+.signOutBtn {
+    position: absolute;
+    top: 5%;
+    left: 3%;
+    height: 3em;
+    padding-left: 1em;
+    padding-right: 1em;
+    background-color: white;
+    border-radius: 5px;
+    border: 2px solid black;
+    font-family: 'Sometype Mono', monospace;;
+    font-size: 16px;
+    transition: 200ms ease-in-out;
+}
+
+.signOutBtn:hover {
+    background: #791e94;
+    color: white;
+}
