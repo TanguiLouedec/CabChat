@@ -67,7 +67,6 @@ function ChatRoom() {
     
     return (
         <div className='container'>
-            <SignOut />
             <main className='messageContainer'>
                 {renderMessages()}
                 <span ref={dummy}></span>
